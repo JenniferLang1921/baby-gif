@@ -1,0 +1,40 @@
+body {
+    background-image: url("../images/babyfeet.jpg");
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+}
+
+.jumbotron {
+text-align: center;
+font-family: 'Ultra', serif;
+
+
+}
+#main_container {
+    margin-top: 0px;
+    margin: 60px;
+	border: 2px black solid;
+	padding: 30px;
+	border-radius: 10px;
+	background-color: rgba(200, 200, 200, 0.9);
+}
+
+.baby_button {
+    background-color: rgb(30, 206, 230);
+    height: 60px;
+    width: 175px;
+    margin: 20px;
+    line-height: 20px;
+    
+    align-items: center;
+    
+}
+
+label {
+    margin-left: 20px;
+    text-align: left;
+}

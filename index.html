@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+
+	<head>
+		
+		 <meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <title>Baby Giphy Page</title>
+
+		<!-- Link in CSS Style -->
+		<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+	</head>
+	<body>
+	
+		
+		
+		<div class = "jumbotron" id ="main_container">
+			<h1  
+		id ="logo">Baby Giphy</h1>
+			
+			<!-- Div to Append Baby Buttons -->
+			<div id = "baby_buttons"></div>
+
+
+			<!-- Div to contain Baby Inputs Form -->
+			<div id = "baby_input_box">
+				<form id = "baby_form">
+
+					<!-- Label for Form -->
+					<label for="baby_input">Add a Baby and Click on the Button You Made!</label>
+
+					<br>
+
+					<!-- Input Box -->
+					<input type="text" id="baby_input">
+
+					<br>
+					<br>
+
+					<!-- Submit Button -->
+					<input id = "add_baby" type="submit">	
+
+				</form>
+			</div>
+		
+
+
+			<!-- Div to contain AJAX outputs of Babies -->
+			<div id = "baby_images"></div>
+
+		</div>
+
+
+		<!-- Link in jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+		<!-- Link in Baby API and Basic JavaScript -->
+		<script src="assets/javascript/script.js" type="text/javascript></script>
+
+	</body>
+</html>
+
