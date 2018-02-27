@@ -1,6 +1,4 @@
-
-
-// Initial array of babies
+//Initial array of babies
 var topics = ['kittens', 'puppies', 'baby birds', 'babies', 'baby pandas', 'baby raccoons'];
 
 
